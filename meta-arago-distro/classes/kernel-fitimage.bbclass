@@ -354,7 +354,7 @@ EOF
                 ${conf_name} {
                         description = "${final_conf_desc}";
                         ${kernel_line}
-                        fdt = "${DTB}";
+                        ${fdt_line}
                         ${ramdisk_line}
                         ${setup_line}
                         ${loadables_line}
@@ -412,7 +412,7 @@ EOF
                 ${conf_name} {
                         description = "${final_conf_desc}";
                         ${kernel_line}
-                        fdt = "${DTB}";
+                        ${fdt_line}
                         ${ramdisk_line}
                         ${setup_line}
                         ${loadables_pager_line}
